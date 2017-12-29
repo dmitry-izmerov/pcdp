@@ -14,6 +14,30 @@
     <modules>
         <module>week1</module>
         <module>week2</module>
+        <module>week3</module>
     </modules>
+
+    <properties>
+        <pcdp.version>0.0.4-SNAPSHOT</pcdp.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>pcdp-repo</id>
+            <url>https://raw.github.com/habanero-maven/hjlib-maven-repo/mvn-repo-pcdp-${pcdp.version}/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>edu.rice.pcdp</groupId>
+            <artifactId>pcdp-core</artifactId>
+            <version>${pcdp.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
