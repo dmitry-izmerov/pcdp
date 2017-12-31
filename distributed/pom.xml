@@ -14,6 +14,7 @@
     <modules>
         <module>week1</module>
         <module>week2</module>
+        <module>week4</module>
     </modules>
 
     <dependencies>
