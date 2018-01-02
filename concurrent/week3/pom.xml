@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>concurrent-week2</artifactId>
+    <artifactId>concurrent-week3</artifactId>
+
 
 </project>
